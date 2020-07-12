@@ -1,0 +1,12 @@
+<div ng-app = "">
+  <p>Adınızı Girin: </p>
+  <p><input type = "text" ng-model = "name"></p>
+  <p>Nerelisiniz ?</p>
+  <select ng-model = "sehir">
+    <option value="UŞAK" >Uşak</option>
+    <option value="ADANA" >Adana</option>
+  </select>   
+
+  <p>Hoşgeldin <span ng-bind = "sehir"></span>'lı <span ng-bind = "name"></span>!</p>   
+
+</div> <!--ng-app-->
